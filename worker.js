@@ -9,7 +9,7 @@ export default {
       return new Response(yaml.stringify(data), { headers: { 'content-type': 'application/yaml' }})
     } else {
       const data = await res.text()
-      return new Response(JSON.stringify(yaml.parse(data), { headers: { 'content-type': 'application/json' }})
+      return new Response(JSON.stringify(yaml.parse(data), null, 2), { headers: { 'content-type': 'application/json' }})
     }
   }
 }
