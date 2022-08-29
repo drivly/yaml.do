@@ -1,0 +1,5 @@
+name = "yaml-do"
+account_id = "b6641681fe423910342b9ffa1364c76d"
+route = { pattern = "*/*", zone_id = "b8511027b0003cbc5d3799c993a991f0" }
+main = "worker.js"
+compatibility_date = "2022-08-23"
