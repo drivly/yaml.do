@@ -5,4 +5,4 @@ YAML to JSON Transformations
 
 <https://yaml.do/json.fyi/people.json>
 
-<https://yaml.do/api.cf>
+<https://yaml.do/worker.cloudflare.com/cf.json>
